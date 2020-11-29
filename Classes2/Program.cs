@@ -6,7 +6,11 @@ namespace Classes2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Product product1 = new Product() {ProductName="Telefon", UnitPrice=300, UnitsUnStock=43 };
+     
+
+            ProductManager productManager = new ProductManager();
+            productManager.Add(product1);
         }
     }
 }
