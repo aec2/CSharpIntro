@@ -11,19 +11,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops", "Loops\Loops.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project1", "Project1\Project1.csproj", "{B2C4F2DE-7D06-4CA5-955F-C98650CF9D9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{637E7C64-6A77-4DD9-BA40-341EDCB3C13B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lists", "Lists\Lists.csproj", "{637E7C64-6A77-4DD9-BA40-341EDCB3C13B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project2", "Project2\Project2.csproj", "{2E6DEDEB-CF50-4360-8601-2FF2A52E8662}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project2", "Project2\Project2.csproj", "{2E6DEDEB-CF50-4360-8601-2FF2A52E8662}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{5FB38D08-3265-4280-89FB-987B4488226D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{5FB38D08-3265-4280-89FB-987B4488226D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes2", "Classes2\Classes2.csproj", "{E3937D1C-6CD2-4292-AC20-D9B84E0EEC47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes2", "Classes2\Classes2.csproj", "{E3937D1C-6CD2-4292-AC20-D9B84E0EEC47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Methods", "Methods\Methods.csproj", "{C1BEE8BC-2C28-49A9-8256-2D43AD07E55F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Methods", "Methods\Methods.csproj", "{C1BEE8BC-2C28-49A9-8256-2D43AD07E55F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project3", "Project3\Project3.csproj", "{C82A411D-CB2F-4660-BEFD-1E68B5BDEAA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project3", "Project3\Project3.csproj", "{C82A411D-CB2F-4660-BEFD-1E68B5BDEAA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{937B36C6-2ED7-45C4-839C-13740B6B2CF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructors", "Constructors\Constructors.csproj", "{937B36C6-2ED7-45C4-839C-13740B6B2CF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{1C667114-4E45-4C99-90EC-2107E3133179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReferenceTypes", "ReferenceTypes\ReferenceTypes.csproj", "{00C23808-DF60-464F-8CF5-1B14EA772C63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{937B36C6-2ED7-45C4-839C-13740B6B2CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{937B36C6-2ED7-45C4-839C-13740B6B2CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{937B36C6-2ED7-45C4-839C-13740B6B2CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C667114-4E45-4C99-90EC-2107E3133179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C667114-4E45-4C99-90EC-2107E3133179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C667114-4E45-4C99-90EC-2107E3133179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C667114-4E45-4C99-90EC-2107E3133179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C23808-DF60-464F-8CF5-1B14EA772C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C23808-DF60-464F-8CF5-1B14EA772C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C23808-DF60-464F-8CF5-1B14EA772C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C23808-DF60-464F-8CF5-1B14EA772C63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
