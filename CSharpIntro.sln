@@ -49,7 +49,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{52B6761D-9E96-4474-9F82-00DD168B3449}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqProject", "LinqProject\LinqProject.csproj", "{59E341A3-CE72-4FF6-A6E9-3A4FE54F441B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqProject", "LinqProject\LinqProject.csproj", "{59E341A3-CE72-4FF6-A6E9-3A4FE54F441B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDemo", "EntityFrameworkDemo\EntityFrameworkDemo.csproj", "{17C377AF-0886-4FB9-A4D6-94E9F2678A51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,10 @@ Global
 		{59E341A3-CE72-4FF6-A6E9-3A4FE54F441B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59E341A3-CE72-4FF6-A6E9-3A4FE54F441B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59E341A3-CE72-4FF6-A6E9-3A4FE54F441B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C377AF-0886-4FB9-A4D6-94E9F2678A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C377AF-0886-4FB9-A4D6-94E9F2678A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C377AF-0886-4FB9-A4D6-94E9F2678A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C377AF-0886-4FB9-A4D6-94E9F2678A51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
