@@ -51,7 +51,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "Except
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqProject", "LinqProject\LinqProject.csproj", "{59E341A3-CE72-4FF6-A6E9-3A4FE54F441B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDemo", "EntityFrameworkDemo\EntityFrameworkDemo.csproj", "{17C377AF-0886-4FB9-A4D6-94E9F2678A51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFrameworkDemo", "EntityFrameworkDemo\EntityFrameworkDemo.csproj", "{17C377AF-0886-4FB9-A4D6-94E9F2678A51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingDemo1", "ThreadingDemo1\ThreadingDemo1.csproj", "{5B4C702D-29D0-4289-A5DC-7D2BFFF50D0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDemo1", "AsyncDemo1\AsyncDemo1.csproj", "{13092DC5-7B54-4280-B30C-BFB3F91CC105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncDemo2", "AsyncDemo2\AsyncDemo2.csproj", "{C15A92A4-A531-4473-889A-D7B7773487E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +165,18 @@ Global
 		{17C377AF-0886-4FB9-A4D6-94E9F2678A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17C377AF-0886-4FB9-A4D6-94E9F2678A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17C377AF-0886-4FB9-A4D6-94E9F2678A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4C702D-29D0-4289-A5DC-7D2BFFF50D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4C702D-29D0-4289-A5DC-7D2BFFF50D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4C702D-29D0-4289-A5DC-7D2BFFF50D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4C702D-29D0-4289-A5DC-7D2BFFF50D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13092DC5-7B54-4280-B30C-BFB3F91CC105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13092DC5-7B54-4280-B30C-BFB3F91CC105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13092DC5-7B54-4280-B30C-BFB3F91CC105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13092DC5-7B54-4280-B30C-BFB3F91CC105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15A92A4-A531-4473-889A-D7B7773487E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15A92A4-A531-4473-889A-D7B7773487E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15A92A4-A531-4473-889A-D7B7773487E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15A92A4-A531-4473-889A-D7B7773487E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

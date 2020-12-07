@@ -1,8 +1,10 @@
-﻿using Project4.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Project4.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Project4.DataAccess
 {
@@ -33,13 +35,28 @@ namespace Project4.DataAccess
             }
         }
 
+        public async Task AddAsync(Product product)
+        {
+            NorthwindContext context = new NorthwindContext();
+
+            await context.Products.AddAsync(product);
+            await context.SaveChangesAsync(); // transaction
+
+
+        }
+
         public void Delete(Product product)
         {
             using (NorthwindContext context = new NorthwindContext())
             {
-                context.Products.Remove(context.Products.SingleOrDefault(p=>p.ProductId==product.ProductId));
+                context.Products.Remove(context.Products.SingleOrDefault(p => p.ProductId == product.ProductId));
                 context.SaveChanges(); // transaction
             }
+        }
+
+        public Task DeleteAsync(Product entity)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Product> GetAll()
@@ -51,14 +68,25 @@ namespace Project4.DataAccess
             }
         }
 
+        public Task<List<Product>> GetAllAsync()
+        {
+            NorthwindContext context = new NorthwindContext();
+            return context.Products.ToListAsync();
+        }
+
         public Product GetById(int id)
         {
             using (NorthwindContext context = new NorthwindContext())
             {
                 //  Eğer birden fazla data dönerse hata verir.
                 return context.Products.SingleOrDefault(p => p.ProductId == id);
-                    
-             }
+
+            }
+        }
+
+        public Task<Product> GetByIdAsync(int id)
+        {
+            throw new NotImplementedException();
         }
 
         public void Update(Product product)
@@ -74,6 +102,11 @@ namespace Project4.DataAccess
 
                 context.SaveChanges(); // transaction
             }
+        }
+
+        public Task UpdateAsync(Product entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }

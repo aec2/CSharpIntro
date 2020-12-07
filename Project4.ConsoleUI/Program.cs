@@ -4,11 +4,16 @@ using Project4.DataAccess;
 using Project4.Entities;
 namespace Project4.ConsoleUI
 {
-    class Program 
+    class Program
     {
         static void Main(string[] args)
         {
             ProductManager productManager = new ProductManager(new EFProductDal());
+
+            foreach (var product in productManager.GetAllAsync().Result)
+            {
+                Console.WriteLine(product.ProductName);
+            }
 
             //productManager.Delete(new Product
             //{
@@ -20,7 +25,7 @@ namespace Project4.ConsoleUI
             //    UnitsInStock = 4
             //}); ;
 
-            Console.WriteLine(productManager.GetById(1).ProductName);
+            //Console.WriteLine(productManager.GetById(1).ProductName);
 
             //foreach (var product in productManager.GetAll())
             //{
@@ -36,12 +41,14 @@ namespace Project4.ConsoleUI
             //{
             //    Console.WriteLine(exception.Message);
             //}
-            PersonelManager personelManager = new PersonelManager(new EfPersonalDal());
 
-            foreach (var personel in personelManager.GetAll())
-            {
-                Console.WriteLine($"{personel.Id} / {personel.Name} / {personel.Surname}");
-            }
+
+            //PersonelManager personelManager = new PersonelManager(new EfPersonalDal());
+
+            //foreach (var personel in personelManager.GetAll())
+            //{
+            //    Console.WriteLine($"{personel.Id} / {personel.Name} / {personel.Surname}");
+            //}
         }
     }
 }

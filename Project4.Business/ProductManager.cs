@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 using Project4.DataAccess;
 using Project4.Entities;
 
@@ -35,6 +36,11 @@ namespace Project4.Business
             // İş kodları buraya...
 
             return _productDal.GetAll();
+        }
+
+        public Task<List<Product>> GetAllAsync()
+        {
+            return _productDal.GetAllAsync();
         }
 
         public Product GetById(int id)

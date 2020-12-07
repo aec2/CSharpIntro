@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Project4.Business
 {
@@ -12,5 +13,7 @@ namespace Project4.Business
         void Add(Product product);
         void Delete(Product product);
         void Update(Product product);
+
+        Task<List<Product>> GetAllAsync();
     }
 }
